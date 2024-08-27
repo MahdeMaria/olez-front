@@ -1,5 +1,5 @@
 export enum RouterPath {
-    HOME = "/",
+    HOME = "/home",
     SAUDACAO = "/saudacao",
     DADOS_DECLARANTE = "/dadosDoDeclarante",
     DADOS_DECLARANTE_FAMILIA_SIM = "/dadosDoDeclaranteFamiliaSim",

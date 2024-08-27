@@ -1,20 +1,19 @@
-import logo from '@/assets/logo.svg'
-//import { RouterPath } from '@/constants/routes'
-//import { useDeclarationStore } from '@/store/declarationStore'
 import { Logout } from '@mui/icons-material'
 import { AppBar, Box, Button, Container, Toolbar, useTheme } from '@mui/material'
-//import { useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
+import { RouterPath } from '../../constants/routes'
+import { useDeclarationStore } from '../../store/declarationStore'
 
 export default function Header() {
     const theme = useTheme()
-    //const navigate = useNavigate()
-    //const { handleFormLogout } = useDeclarationStore()
+    const navigate = useNavigate()
+    const { handleFormLogout } = useDeclarationStore()
 
-   /*  const handleLogout = () => {
+    const handleLogout = () => {
         handleFormLogout()
         navigate(RouterPath.SAIDA_FLUXO)
     }
- */
+
     return (
         <>
             <AppBar
@@ -24,8 +23,7 @@ export default function Header() {
                 <Container maxWidth='xl'>
                     <Toolbar>
                         <Box
-                            component='img'
-                            src={logo}
+                            component='img'    
                             alt='Du Beneficios'
                             sx={{ width: '140px' }}
                         />
@@ -34,7 +32,7 @@ export default function Header() {
                             variant='text'
                             endIcon={<Logout sx={{ color: theme.palette.secondary.main }} />}
                             sx={{ color: theme.palette.common.white, fontWeight: 700 }}
-                            //onClick={handleLogout}
+                            onClick={handleLogout}
                         >
                             Sair
                         </Button>

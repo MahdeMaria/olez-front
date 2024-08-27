@@ -1,0 +1,26 @@
+export enum RouterPath {
+    HOME = "/",
+    SAUDACAO = "/saudacao",
+    DADOS_DECLARANTE = "/dadosDoDeclarante",
+    DADOS_DECLARANTE_FAMILIA_SIM = "/dadosDoDeclaranteFamiliaSim",
+    DADOS_DECLARANTE_AMIGO_DISTANTE = "/dadosDoDeclaranteAmigoDistante",
+    IDENTIFICACAO_SERVICO = "/identificacaoDoServico",
+    IDENTIFICACAO_ASSOCIADO_BUSCA_PLANO = "/identificacaoDoServicoBuscaPlano",
+    IDENTIFICACAO_ASSOCIADO_BEM_SUCEDIDA = "/IdentificacaoDoServicoBuscaBemSucedida",
+    LOCALIDADE = "/Localidade",
+    DECLARACAO_DE_OBITO = "/DeclaracaoDeObito",
+    DECLARAÇÃO_DE_OBITO_RESIDENCIA = "/DeclaracaoDeObitoResidencia",
+    ENDERECO = "/Endereco",
+    MENSAGENS_HOSPITAL = "/mensagensHospital",
+    FINAL_NPS = "/finalNPS",
+    SAIDA_FLUXO = "/saidaDeFluxo",
+    DESTINACAO = "/Destinacao",
+    DESTINACAO_NAO_DEFINIDA = "/DestinacaoNaoDefinida",
+    DESTINACAO_VESTIMENTA = "/DestinacaoVestimenta",
+    DESTINACAO_ALERT = "/DestinacaoAlert",
+    DIRECIONAMENTO_UNIDADE = "/DirecionamentoUnidade",
+    ORIENTACOES_FINAIS = "/Orietacoes",
+    MENSAGEM_FUNERARIO = "/MensagemAgenteFunerario",
+  
+  }
+  

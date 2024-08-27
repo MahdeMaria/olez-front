@@ -1,0 +1,46 @@
+export type DeclarationItem = Partial<{
+    sessionId: string
+    rating: number
+    neighborhoodNotFound: boolean
+    comoPossoAjudalo: string
+    clienteConseguiuLocalizarCPF: string
+    planoFoiEncontrado: string
+    notFoundDependent: string
+    primeiroContatoDaFamilia: string
+    responsavelFornecerInformação: string
+    samuIsOnTheLocal: string
+    primeiroContatoDaFamiliaSave: string
+    declaracaoDeObitoPreenchida: string
+    estadoOndeAconteceuOObito: string
+    estadoOndeAconteceuOObitoIsSaved: string
+    responsibleForInformation: string
+    haveCondition: string
+    dontHaveHospital: boolean
+    closeFamiliar: string
+    declarantName: string
+    declarantFirstPhone: string
+    declarantSecundaryPhone: string
+    kinshipDegree: string
+    burialPlan: string
+    burialPlanCpf: string
+    burialPlanSubscribeNumber: string
+    burialPlanStatus?: string
+    deceasedPersonName: string
+    deceasedPersonLocation: string
+    deceasedPersonLocationIsHospital: boolean
+    deceasedPersonHaveClothes: string
+    companyClothesForFuneral: string
+    residenceNeighborhood?: string | unknown
+    residenceFullAddress: string
+    hospitalName: string
+    hospitalFullAddress: string
+    city: string
+    cityIsSaved: boolean
+    deathCertificate: boolean
+    funeralType: string
+    funeralTypeIsSaved: boolean
+    businessUnitTitle: string
+    businessUnitDescription: string
+    clientObservations: string
+    clientMessage: string
+}>
